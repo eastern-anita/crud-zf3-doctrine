@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Crud\Service;
@@ -60,5 +61,4 @@ class PostManager
         $this->entityManager->remove($del);
         $this->entityManager->flush();
     }
-
 }

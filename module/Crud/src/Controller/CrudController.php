@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Crud\Controller;
@@ -132,5 +133,4 @@ class CrudController extends AbstractActionController
         // Redirect the user to "index" page.
         return $this->redirect()->toRoute('crud');
     }
-
 }

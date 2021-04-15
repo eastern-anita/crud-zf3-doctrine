@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Crud\Form;
@@ -7,9 +8,6 @@ use Zend\Form\Form;
 
 class EditForm extends Form
 {
-    /**
-     * Constructor
-     */
     public function __construct()
     {
         // Define form name
